@@ -26,8 +26,8 @@ const DelayRepeat = () => {
     // gsap.to(".green2", { x: 400, y: 0 });
 
     // step 5 - going infinite, just like yoyo - the bouncy nature
-    gsap.to(".green1", { x: 400, y: 0, repeat: -1, yoyo: true });
-    gsap.to(".green2", { x: 400, y: 0 });
+    gsap.to(".green1", { x: 1400, y: 0, repeat: -1, yoyo: true });
+    gsap.to(".green2", { x: 1400, y: 0 });
   }, []);
   return (
     <div>
