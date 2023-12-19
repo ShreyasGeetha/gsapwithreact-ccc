@@ -2,6 +2,11 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React from "react";
 
+/**
+ *
+ * Uncomment each step as explain in course to go through the animation
+ */
+
 const FromTo = () => {
   useGSAP(() => {
     // Step 1
