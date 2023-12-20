@@ -8,6 +8,7 @@ import Ease from "./GSAP3Express/Tweens/Ease";
 import Stagger from "./GSAP3Express/Tweens/Stagger/Stagger";
 import Control from "./GSAP3Express/Tweens/Control/Control";
 import TransformOrigin from "./GSAP3Express/Tweens/TransformOrigin/TransformOrigin";
+import TweenGlitch from "./GSAP3Express/Tweens/TweenGlitch/TweenGlitch";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <Ease /> */}
       {/* <Stagger /> */}
       {/* <Control /> */}
-      <TransformOrigin />
+      {/* <TransformOrigin /> */}
+      <TweenGlitch />
     </div>
   );
 }
