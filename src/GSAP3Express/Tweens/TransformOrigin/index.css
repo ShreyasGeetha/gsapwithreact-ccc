@@ -1,0 +1,33 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #1d1d1d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  flex-direction: column;
+  color: white;
+  font-family: sans-serif;
+}
+
+.h2 {
+  font-weight: normal;
+}
+.demo {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  border-bottom: 100px solid black;
+  background: dodgerblue;
+}
+
+.truck {
+  position: absolute;
+  bottom: -3px;
+  left: 60px;
+}

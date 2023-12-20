@@ -7,6 +7,7 @@ import DelayRepeat from "./GSAP3Express/Tweens/DelayRepeat";
 import Ease from "./GSAP3Express/Tweens/Ease";
 import Stagger from "./GSAP3Express/Tweens/Stagger/Stagger";
 import Control from "./GSAP3Express/Tweens/Control/Control";
+import TransformOrigin from "./GSAP3Express/Tweens/TransformOrigin/TransformOrigin";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <DelayRepeat /> */}
       {/* <Ease /> */}
       {/* <Stagger /> */}
-      <Control />
+      {/* <Control /> */}
+      <TransformOrigin />
     </div>
   );
 }
