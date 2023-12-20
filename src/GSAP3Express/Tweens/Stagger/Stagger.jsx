@@ -33,7 +33,7 @@ const Stagger = () => {
         from: "center", // try with start and end, replacing center
       },
     });
-  });
+  }, []);
 
   return (
     <div className="demo">
