@@ -9,8 +9,12 @@ const Intro = () => {
       .timeline()
       .from("#demo", { autoAlpha: 0 })
       .from("#title", { scale: 0, opacity: 0, ease: "back" })
-      .from("#freds img", { y: 165, stagger: 0.1, duration: 0.8, ease: "back" })
-      .from("#time", { xPercent: 100, duration: 0.2, ease: "back" });
+      .from(
+        "#freds img",
+        { y: 165, stagger: 0.1, duration: 0.8, ease: "back" },
+        "+=0.25",
+      )
+      .from("#time", { xPercent: 100, duration: 0.2, ease: "back" }, "<0.1");
   }, []);
   return (
     <div id="demo">
