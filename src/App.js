@@ -9,6 +9,7 @@ import Stagger from "./GSAP3Express/Tweens/Stagger/Stagger";
 import Control from "./GSAP3Express/Tweens/Control/Control";
 import TransformOrigin from "./GSAP3Express/Tweens/TransformOrigin/TransformOrigin";
 import TweenGlitch from "./GSAP3Express/Tweens/TweenGlitch/TweenGlitch";
+import Intro from "./GSAP3Express/Timeline/Intro/Intro";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <Stagger /> */}
       {/* <Control /> */}
       {/* <TransformOrigin /> */}
-      <TweenGlitch />
+      {/* <TweenGlitch /> */}
+      <Intro />
     </div>
   );
 }
