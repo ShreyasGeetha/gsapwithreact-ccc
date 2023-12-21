@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css";
+import "../index.css";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 
@@ -35,30 +35,6 @@ const HoverEffect = () => {
       >
         <div className="dot"></div>
         <div className="text">home</div>
-      </div>
-      <div
-        className="item"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div className="dot"></div>
-        <div className="text">About</div>
-      </div>
-      <div
-        className="item"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div className="dot"></div>
-        <div className="text">Portfolio</div>
-      </div>
-      <div
-        className="item"
-        onMouseEnter={handleMouseEnter}
-        onMouseLeave={handleMouseLeave}
-      >
-        <div className="dot"></div>
-        <div className="text">Contact us</div>
       </div>
     </>
   );

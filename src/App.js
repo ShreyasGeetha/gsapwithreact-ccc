@@ -11,6 +11,7 @@ import TransformOrigin from "./GSAP3Express/Tweens/TransformOrigin/TransformOrig
 import TweenGlitch from "./GSAP3Express/Tweens/TweenGlitch/TweenGlitch";
 import Intro from "./GSAP3Express/Timeline/Intro/Intro";
 import HoverEffect from "./GSAP3Express/AnimatedButtons/HoverEffects/HoverEffect";
+import HoverMultipleElements from "./GSAP3Express/AnimatedButtons/HoverMultipleElements/HoverMultipleElements";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <TransformOrigin /> */}
       {/* <TweenGlitch /> */}
       {/* <Intro /> */}
-      <HoverEffect />
+      {/* <HoverEffect /> */}
+      <HoverMultipleElements />
     </div>
   );
 }
