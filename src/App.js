@@ -14,6 +14,7 @@ import HoverEffect from "./GSAP3Express/AnimatedButtons/HoverEffects/HoverEffect
 import HoverMultipleElements from "./GSAP3Express/AnimatedButtons/HoverMultipleElements/HoverMultipleElements";
 import HoverPulse from "./GSAP3Express/AnimatedButtons/HoverPulse/HoverPulse";
 import FinalProject from "./GSAP3Express/FinalProject/FinalProject";
+import TypeWriter from "./GSAP3Express/Text/TypeWriter/TypeWriter";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <HoverEffect /> */}
       {/* <HoverMultipleElements /> */}
       {/* <HoverPulse /> */}
-      <FinalProject />
+      {/* <FinalProject /> */}
+      <TypeWriter />
     </div>
   );
 }
