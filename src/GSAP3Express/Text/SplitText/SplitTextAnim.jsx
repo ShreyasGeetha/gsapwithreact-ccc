@@ -15,6 +15,8 @@ const SplitTextAnim = () => {
       opacity: 0,
       stagger: 0.05,
       y: 30,
+      rotation: -60,
+      repeat: 2,
       ease: "back(4)",
     });
   }, []);
