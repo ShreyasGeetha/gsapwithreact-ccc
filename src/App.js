@@ -13,6 +13,7 @@ import Intro from "./GSAP3Express/Timeline/Intro/Intro";
 import HoverEffect from "./GSAP3Express/AnimatedButtons/HoverEffects/HoverEffect";
 import HoverMultipleElements from "./GSAP3Express/AnimatedButtons/HoverMultipleElements/HoverMultipleElements";
 import HoverPulse from "./GSAP3Express/AnimatedButtons/HoverPulse/HoverPulse";
+import FinalProject from "./GSAP3Express/FinalProject/FinalProject";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <Intro /> */}
       {/* <HoverEffect /> */}
       {/* <HoverMultipleElements /> */}
-      <HoverPulse />
+      {/* <HoverPulse /> */}
+      <FinalProject />
     </div>
   );
 }
