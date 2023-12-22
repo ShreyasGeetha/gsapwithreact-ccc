@@ -12,6 +12,7 @@ import TweenGlitch from "./GSAP3Express/Tweens/TweenGlitch/TweenGlitch";
 import Intro from "./GSAP3Express/Timeline/Intro/Intro";
 import HoverEffect from "./GSAP3Express/AnimatedButtons/HoverEffects/HoverEffect";
 import HoverMultipleElements from "./GSAP3Express/AnimatedButtons/HoverMultipleElements/HoverMultipleElements";
+import HoverPulse from "./GSAP3Express/AnimatedButtons/HoverPulse/HoverPulse";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <TweenGlitch /> */}
       {/* <Intro /> */}
       {/* <HoverEffect /> */}
-      <HoverMultipleElements />
+      {/* <HoverMultipleElements /> */}
+      <HoverPulse />
     </div>
   );
 }
