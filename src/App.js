@@ -17,6 +17,7 @@ import FinalProject from "./GSAP3Express/FinalProject/FinalProject";
 import TypeWriter from "./GSAP3Express/Text/TypeWriter/TypeWriter";
 import SplitTextAnim from "./GSAP3Express/Text/SplitText/SplitTextAnim";
 import SplitTextWord from "./GSAP3Express/Text/SplitTextWord/SplitTextWord";
+import SplitLine from "./GSAP3Express/Text/SplitLine/SplitLine";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <FinalProject /> */}
       {/* <TypeWriter /> */}
       {/* <SplitTextAnim /> */}
-      <SplitTextWord />
+      {/* <SplitTextWord /> */}
+      <SplitLine />
     </div>
   );
 }
