@@ -15,6 +15,7 @@ import HoverMultipleElements from "./GSAP3Express/AnimatedButtons/HoverMultipleE
 import HoverPulse from "./GSAP3Express/AnimatedButtons/HoverPulse/HoverPulse";
 import FinalProject from "./GSAP3Express/FinalProject/FinalProject";
 import TypeWriter from "./GSAP3Express/Text/TypeWriter/TypeWriter";
+import SplitTextAnim from "./GSAP3Express/Text/SplitText/SplitTextAnim";
 
 function App() {
   return (
@@ -32,7 +33,8 @@ function App() {
       {/* <HoverMultipleElements /> */}
       {/* <HoverPulse /> */}
       {/* <FinalProject /> */}
-      <TypeWriter />
+      {/* <TypeWriter /> */}
+      <SplitTextAnim />
     </div>
   );
 }

@@ -37,8 +37,8 @@ const TypeWriter = () => {
     // });
 
     //step 5
-    gsap.from("p", {
-      text: "Hello this is typewriter effect",
+    gsap.to("p", {
+      text: { value: "Hello this is typewriter effect", delimiter: "" },
       duration: 2,
       ease: "power1.in",
     });
@@ -47,7 +47,7 @@ const TypeWriter = () => {
     <div className="wrapper">
       {/* Step 3 
       <p>I am the initial text</p> */}
-      <p></p>
+      <p>This is a paragraph</p>
     </div>
   );
 };
